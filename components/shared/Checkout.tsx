@@ -6,7 +6,7 @@ import { useEffect } from "react";
 import { useToast } from "@/components/ui/use-toast";
 import { checkoutCredits } from "@/lib/actions/transaction.action";
 
-import { Button } from "../../../components/ui/button";
+import { Button } from "@/components/ui/button";
 
 const Checkout = ({
   plan,
