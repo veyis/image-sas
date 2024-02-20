@@ -13,6 +13,7 @@ const AddTransformationTypePage = async ({ params: { type } }: SearchParamProps)
 
   const user = await getUserById(userId);
 
+  
   return (
     <>
       <Header 
@@ -31,5 +32,6 @@ const AddTransformationTypePage = async ({ params: { type } }: SearchParamProps)
     </>
   )
 }
+
 
 export default AddTransformationTypePage
